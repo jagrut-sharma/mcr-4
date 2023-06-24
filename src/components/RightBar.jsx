@@ -14,11 +14,11 @@ export default function RightBar() {
   };
 
   return (
-    <aside className="h-full border-l border-l-gray-300">
-      <div className="fixed top-[68px] bottom-0 right-0 px-4 w-[16rem]">
+    <aside>
+      <div className="flex flex-col pt-4 gap-3 border-l border-l-gray-300 fixed top-[52px] bottom-0 right-0 px-4 w-[16rem]">
         <p className="text-xl font-bold font-Libre">Sort By:</p>
 
-        <Tab.Group className="my-2">
+        <Tab.Group className="mb-2">
           <Tab.List className="flex space-x-1 rounded bg-violet-600 p-1">
             {postCategory.map((category) => (
               <Tab
