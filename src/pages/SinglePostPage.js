@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useData } from "../context/DataContext";
+import { useData } from "../context/dataContext";
 import PostCard from "../components/PostCard";
 import AvatarEle from "../components/AvatarEle";
 import { BsDot } from "react-icons/bs";

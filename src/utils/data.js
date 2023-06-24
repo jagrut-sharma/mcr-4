@@ -15,7 +15,7 @@ export const forumData = {
       upvotes: 350,
       downvotes: 50,
       tags: ["mba", "business", "bootcamp"],
-      createdAt: "2023-06-24T12:00:00Z",
+      createdAt: "2023-06-22T12:00:00Z",
       comments: [
         {
           commentId: "89898-856-87576",

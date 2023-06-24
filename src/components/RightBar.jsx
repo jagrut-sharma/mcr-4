@@ -1,5 +1,5 @@
 import { Tab } from "@headlessui/react";
-import { useData } from "../context/DataContext";
+import { useData } from "../context/dataContext";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

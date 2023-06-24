@@ -8,7 +8,7 @@ import {
   BsFillBookmarkFill,
 } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { useData } from "../context/DataContext";
+import { useData } from "../context/dataContext";
 import { ACTIONS } from "../utils/ACTIONS";
 
 export default function PostCard({ post }) {

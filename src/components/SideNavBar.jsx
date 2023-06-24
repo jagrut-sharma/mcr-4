@@ -2,7 +2,7 @@ import { AiOutlineHome } from "react-icons/ai";
 import { MdExplore } from "react-icons/md";
 import { BsFillBookmarkFill } from "react-icons/bs";
 import { FaUserCircle } from "react-icons/fa";
-import { useData } from "../context/DataContext";
+import { useData } from "../context/dataContext";
 import AvatarEle from "./AvatarEle";
 import { Link } from "react-router-dom";
 
