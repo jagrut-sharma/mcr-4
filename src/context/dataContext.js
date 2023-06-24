@@ -12,7 +12,7 @@ export const DataProvider = ({ children }) => {
     dataReducer,
     initialDataState
   );
-  const [currCategory, setCurrCategory] = useState(true);
+  const [currCategory, setCurrCategory] = useState("Recent");
 
   const dataContext = {
     dataState,

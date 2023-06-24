@@ -10,7 +10,7 @@ export default function Home() {
 
   let sortedArr = [...posts];
 
-  if (currCategory) {
+  if (currCategory === "Recent") {
     sortedArr.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
   } else {
     sortedArr.sort((a, b) => {

@@ -10,7 +10,7 @@ export default function RightBar() {
   const { setCurrCategory } = useData();
 
   const handleCategory = (e) => {
-    setCurrCategory((value) => !value);
+    setCurrCategory(e.target.name);
   };
 
   return (
