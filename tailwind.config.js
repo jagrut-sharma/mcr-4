@@ -7,6 +7,12 @@ module.exports = {
         Libre: ["Libre Franklin", "sans-serif"],
         Merriweather: ["Merriweather", "serif"],
       },
+      gridTemplateRows: {
+        rootLayout: "auto 1fr",
+      },
+      gridTemplateColumns: {
+        rootColLayout: "13rem 1fr 16rem",
+      },
     },
   },
   plugins: [],

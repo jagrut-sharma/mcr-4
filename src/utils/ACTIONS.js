@@ -1,1 +1,5 @@
-export const ACTIONS = {};
+export const ACTIONS = {
+  UPVOTE: "UPVOTE_POST",
+  DOWNVOTE: "DOWNVOTE_POST",
+  BOOKMARK: "BOOKMARK_POST",
+};
